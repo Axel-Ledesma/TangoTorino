@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar{
+    overflow: hidden;
+}
+/** H O M E **/
+#home{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Css/prueba.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-position-y: top;
+    height: 100vh;
+    display: flex;
+}
+#home .presentacion{
+    text-align: center;
+    margin: auto;
+}
+#home .presentacion .foto{
+    max-width: 300px;
+    border-radius: 10px;
+}
+#home .presentacion .nombre{
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #f1f1f1;
+}
+#home .presentacion .descripcion{
+    max-width: 700px;
+    font-size: 18px;
+    color: #f1f1f1;
+}
+#home .canciones{   
+    max-width: 600px;
+    margin-top: auto;
+    margin: auto;
+}
